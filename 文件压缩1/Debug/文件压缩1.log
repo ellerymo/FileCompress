@@ -1,0 +1,22 @@
+﻿  test.cpp
+e:\working\文件压缩1\文件压缩1\filecompress.h(69): warning C4018: “<”: 有符号/无符号不匹配
+e:\working\文件压缩1\文件压缩1\heap.h(63): warning C4018: “<”: 有符号/无符号不匹配
+          e:\working\文件压缩1\文件压缩1\heap.h(61): 编译类 模板 成员函数“void Heap<HuffmanTreeNode<CharInfo> *,HuffmanTree<CharInfo>::{ctor}::Comp>::_AdjustDown(int)”时
+          e:\working\文件压缩1\文件压缩1\heap.h(50): 参见对正在编译的函数 模板 实例化“void Heap<HuffmanTreeNode<CharInfo> *,HuffmanTree<CharInfo>::{ctor}::Comp>::_AdjustDown(int)”的引用
+          e:\working\文件压缩1\文件压缩1\huffman.h(47): 参见对正在编译的类 模板 实例化“Heap<HuffmanTreeNode<CharInfo> *,HuffmanTree<CharInfo>::{ctor}::Comp>”的引用
+          e:\working\文件压缩1\文件压缩1\huffman.h(24): 编译类 模板 成员函数“HuffmanTree<CharInfo>::HuffmanTree(const T *,int,T)”时
+          with
+          [
+              T=CharInfo
+          ]
+          e:\working\文件压缩1\文件压缩1\filecompress.h(54): 参见对正在编译的函数 模板 实例化“HuffmanTree<CharInfo>::HuffmanTree(const T *,int,T)”的引用
+          with
+          [
+              T=CharInfo
+          ]
+          e:\working\文件压缩1\文件压缩1\filecompress.h(54): 参见对正在编译的类 模板 实例化“HuffmanTree<CharInfo>”的引用
+e:\working\文件压缩1\文件压缩1\heap.h(65): warning C4018: “<”: 有符号/无符号不匹配
+e:\working\文件压缩1\文件压缩1\heap.h(82): warning C4018: “<”: 有符号/无符号不匹配
+          e:\working\文件压缩1\文件压缩1\heap.h(78): 编译类 模板 成员函数“void Heap<HuffmanTreeNode<CharInfo> *,HuffmanTree<CharInfo>::{ctor}::Comp>::_AdjustUp(int)”时
+          e:\working\文件压缩1\文件压缩1\heap.h(42): 参见对正在编译的函数 模板 实例化“void Heap<HuffmanTreeNode<CharInfo> *,HuffmanTree<CharInfo>::{ctor}::Comp>::_AdjustUp(int)”的引用
+  文件压缩1.vcxproj -> E:\working\文件压缩1\Debug\文件压缩1.exe
